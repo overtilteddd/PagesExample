@@ -1,0 +1,93 @@
+.menu {
+    background-color: rgba(17,160,119,255); 
+    padding: 10px;
+    width: 500px;
+  }
+  
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around; 
+}
+  
+.menu li {
+    margin: 0 10px;
+}
+  
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+  
+.menu a:hover {
+    background-color: rgba(17,119,92,255);
+}
+
+.menu1 {
+    background-color: transparent ; 
+    padding: 10px; 
+    width: 150px;
+  }
+  
+.menu1 ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+  }
+  
+.menu1 li {
+    margin-bottom: 10px;
+  }
+
+.menu1 a {
+    color: white;
+    background-color: rgba(17,160,119,255);
+    text-decoration: none; 
+    padding: 10px; 
+    border: 1px solid rgba(17,160,119,255);
+    transition: background-color 0.3s ease; 
+    display: block; 
+  }
+  
+.menu1 a:hover {
+    color: rgba(17,160,119,255);
+    background-color: white; 
+  }
+
+
+.menu2 nav {
+    background-color: #4CAF50;
+    padding: 10px;
+  }
+  
+.menu2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between; 
+    width: 400px;
+  }
+  
+.menu2 li {
+    margin-bottom: 10px;
+  }
+  
+.menu2 a {
+    background-color: rgba(17,160,119,255);
+    color: white; 
+    text-decoration: none;
+    border: 1px solid rgba(17,160,119,255);
+    padding: 10px; 
+    transition: background-color 0.3s ease; 
+    display: block;
+  }
+  
+.menu2 a:hover {
+    color: rgba(17,160,119,255);
+    background-color: white; 
+  }
